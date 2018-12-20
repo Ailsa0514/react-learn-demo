@@ -1,0 +1,11 @@
+body{
+    background: rgba(0,0,0,.1);
+}
+/* css 模块化，只是针对id和类选择器 */
+.title{
+    color: red;
+}
+/* 某个类名不会被模块化而是会全局生效 */
+:global(.tt){
+    padding :10px;
+}
